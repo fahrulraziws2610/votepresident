@@ -1,17 +1,16 @@
 import { useState } from 'react'
 import './App.css'
 import Card from './component/Card'
+import Form from './component/form'
+import PageForm from './component/PageForm'
+
 
 function App() {
-  const [count, setCount] = useState(0)
-
-  const Counter = () => {
-    setCount(gas => gas + 1)
-  }
 
   return (
     <>
-    <Card/>
+    <PageForm/>
+    {/* <Card/> */}
     </>
   )
 }
